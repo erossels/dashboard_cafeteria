@@ -1,0 +1,48 @@
+<h1>Dashboard</h1>
+
+<h3> Ventas mensuales últimos 12 meses </h3>
+  <%= column_chart @sales %>
+<hr>
+
+<h3> Conteo mensuales últimos 12 meses </h3>
+  <%= column_chart @salescount %>
+<hr>
+
+<h3> Promedio mensuales últimos 12 meses </h3>
+  <%= column_chart @salesavg %>
+<hr>
+
+<h3>Ventas anuales</h3>
+  <%= pie_chart @salespieorigin1%>
+<hr>
+
+<h3>Ventas Semestrales</h3>
+  <%= pie_chart @salespieorigin2%> 
+<hr>
+
+<h3>Ventas Trimestrales</h3>
+  <%= pie_chart @salespieorigin3%>
+<hr>
+
+<h3>Ventas último mes</h3>
+  <%= pie_chart @salespieorigin4%>
+<hr>
+
+<h3>Ventas anuales</h3>
+  <%= pie_chart @salespiename1%>
+<hr>
+
+<h3>Ventas Semestrales</h3>
+<%= pie_chart @salespiename2%> 
+<hr>
+
+<h3>Ventas Trimestrales</h3>
+<%= pie_chart @salespiename3%>
+<hr>
+
+<h3>Ventas último mes</h3>
+<%= pie_chart @salespiename4%>
+<hr>
+
+
+
